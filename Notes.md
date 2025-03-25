@@ -39,7 +39,7 @@
 
 #### Variables
 * Variable & Value
-* Varible naming guidelines
+* Variable naming guidelines
 * name error
 * Variables are labels rather than boxes
 
@@ -47,7 +47,7 @@
 * Series of characters inside quotes
 * Single or Double quotes
 * `str.title()` method
-* Dot (.) notation
+* Dot (.) operator
 * `str.upper()` method
 * `str.lower()` method
 * f-strings (f : format)
@@ -118,5 +118,86 @@
 
 #### Avoiding Index Errors When Working with Lists
 * Index Error
+
+---
+
+# Chapter 4: Working with Lists
+
+- Looping Through an Entire List
+- Avoiding Indentation Errors
+- Making Numerical Lists
+- Working with Part of a List
+- Tuples
+- Styling Your Code
+
+#### Looping Through an Entire List
+- for loop
+  - naming convention for the temporary variable
+
+#### Avoiding Indentation Errors
+- Indentation 
+- Indentation Errors
+- Logical Errors
+
+#### Making Numerical Lists
+- `range(start,end,step)` function
+  - `range(1,5)` means 1 to 4
+  - `range(5)` means 0 to 5
+- `list()` function
+  - `list(range(5))` : [0,1,2,3,4]
+- `min(num_list)` function
+- `max(num_list)` function
+- `sum(num_list)` function
+- List comprehension
+  - ex: `squares = [value**2 for value in range(1,11)]`
+
+#### Working with Part of a List
+- List slicing (:)
+  - `ar[-3:]` returns last 3 elements
+- `sample_list[start:end:step]`
+- `sample_list = another_list[:]` copy without reference
+
+#### Tuples
+- immutable
+- ()
+- `tup = (1,)` include trailing comma for tuple with 1 element
+
+---
+
+# Chapter 5: If Statements
+
+- A Simple Example
+- Conditional Tests
+- if Statements
+- Using if Statement with Lists
+- Styling Your if Statements
+
+#### Conditional Tests
+- Equality operator
+- Inquality operator
+- < > <= >=
+- and   or
+- in    not in
+- Boolean Values & Expressions
+
+#### if Statements
+- Simple if statement
+- if-else block
+- if-elif-else chain
+- omitting the else block
+- series of if statements
+
+#### Using if statements with Lists
+- Checking That a List Is Not Empty 
+  
+    ```python
+        requested_toppings = []
+        if requested_toppings:
+            for requested_topping in requested_toppings:
+                print(f"Adding {requested_topping}.")
+            print("\nFinished making your pizza!")
+        else:
+            print("Are you sure you want a plain pizza?")
+    ```
 
 ---
