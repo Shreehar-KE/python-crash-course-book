@@ -201,3 +201,32 @@
     ```
 
 ---
+
+# Chapter 6: Dictionaries
+
+- A Simple Dictionary
+- Working with Dictionaries
+- Looping through a Dictionary
+- Nesting
+
+#### Working with Dictionaries
+- {key:value,...}
+- To access a value in a dictionary
+  - `sample_dict[key]`
+- Dynamic data structures
+- To remove key-value pairs
+  - `del sample_dict[key]`
+- `sample_dict.get(key)` method
+  - returns 'None' or the default value passed as a parameter if the key doesn't exists.
+
+#### Looping through a Dictionary
+- `for key,value in dict_1.items():`
+  - to loop through each key-value pair for each iteration
+- `for key in dict_1.keys():`
+  - same as `for key in dict_1:`
+  - `if key in dict_1.keys():`
+- `for value in dict_1.values():`
+- `set(dict_1.values())` to get unique values
+  - set : `{value1, value2}`
+
+---
