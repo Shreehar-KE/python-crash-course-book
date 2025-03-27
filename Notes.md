@@ -230,3 +230,25 @@
   - set : `{value1, value2}`
 
 ---
+
+# Chapter 7: User Input and While Loops
+
+- How the input() Function works
+- Introducing while Loops
+- Using a while Loop with Lists and Dictionaries
+
+#### How the input() Function works
+- prompt argument 
+  - can be a string variable also
+- int() function
+- % operator
+
+#### Introducing while Loops
+- flag variable
+- break statement
+- continue statement
+
+#### Using a while Loop with Lists and Dictionaries
+- provides the ability to modify the list while looping
+
+---
