@@ -306,3 +306,55 @@
 - two blank lines between two functions
 
 ---
+
+# Chapter 9: Classes
+
+- Creating and Using a Class
+- Working with Classes and Instances
+- Inheritance
+- Importing Classes
+- The Python Standard Library
+- Styling Classes
+
+#### Creating and Using a Class
+- A function that’s part of a class is a method.
+- `__init__()` method - to initialize attributes
+- `self` parameter 
+  - required in the method definition
+  - must come first before other parameters
+  - *similar to `this` keyword in `Java`*
+- attributes - variables associated with classes/instances
+- Class : set of instructions for how to make an instance
+- Object : instance of a class
+
+#### Working with Classes and Instances
+- modifying attributes directly, through a method(setter)
+
+#### Inheritance 
+- Parent Class and Child Class
+- `Class Child(Parent)` 
+- `super()` function
+- Override Method
+  - declare methods with same name
+- composition
+  - breaking of larger class into smaller classes
+
+#### Importing Classes
+- module level docstring
+- storing multiple classes in a module
+- breaking down a module
+
+#### The Python Standard Library
+- `random` module
+  - `randint()` function
+  - `choice()` function
+
+#### Styling Classes
+- CamelCase naming
+- Docstrings
+  - after class definition
+  - on top of each module
+- single blank line b/w methods in a class
+- imports from std lib comes before imports from a user-defined modules separated by a blank line
+
+---
