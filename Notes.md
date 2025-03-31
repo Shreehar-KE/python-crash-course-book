@@ -401,3 +401,31 @@
 - refactoring
 
 ---
+
+# Chapter 11: Testing Your Code
+
+- Installing pytest with pip
+- Testing a Function
+- Testing a Class
+
+#### Installing pytest with pip
+- To update any third-party package
+  - `python3 -m pip install --upgrade package_name`
+- To install any third-party package
+  - `python3 -m pip install --user package_name`
+
+#### Testing a Function
+- Unit test
+- Test case
+- Full Coverage
+- Naming a test file: start with `test_`
+- Naming a test function: `test_descriptive_function_name`
+- Assertion - `assert`
+- dot indicator 
+
+#### Testing a Class
+- commonly used assertion statements
+  -  uses boolean expressions
+- fixture
+  - `@pytest.fixture`
+- decorator
