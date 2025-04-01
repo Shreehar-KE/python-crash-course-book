@@ -10,7 +10,7 @@ rstrip(), and strip().
 name_1 = "\tJoey Tribbiani "
 name_2 = " \nPhoebe Buffay "
 
-# Note: underscores($$) are used to show the difference after stripping
+# Note: dollar signs($$) are used to show the difference after stripping
 
 print(name_1+"$$")
 print(name_1.rstrip()+"$$")

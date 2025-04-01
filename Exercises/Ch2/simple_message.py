@@ -3,5 +3,5 @@
 message.
 """
 
-message = "This is an exercise"
+message = "This is exercise 2-1"
 print(message)
