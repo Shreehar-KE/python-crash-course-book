@@ -5,9 +5,8 @@ and call one of Restaurant's methods to show that the import statement is work-
 ing properly.
 """
 
-
 import restaurant
 
-central_perk = restaurant.Restaurant('Central Perk', 'Coffeehouse')
+central_perk = restaurant.Restaurant("Central Perk", "Coffeehouse")
 
 central_perk.describe_restaurant()

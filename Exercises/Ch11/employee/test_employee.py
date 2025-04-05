@@ -11,7 +11,6 @@ create a new employee instance in each test function. Run the tests again, and
 make sure both tests still pass.
 """
 
-
 import pytest
 from employee import Employee
 
@@ -19,7 +18,7 @@ from employee import Employee
 @pytest.fixture
 def employee():
     """An employee instance that will available to all test functions"""
-    employee = Employee('Jordan', 'Belfort', 72000)
+    employee = Employee("Jordan", "Belfort", 72000)
     return employee
 
 

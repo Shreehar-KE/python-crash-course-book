@@ -13,16 +13,22 @@ class User:
 
     def describe_user(self):
         """prints the description of the user"""
-        print(f'{self.first_name} {self.last_name} is {self.age} years old.')
+        print(f"{self.first_name} {self.last_name} is {self.age} years old.")
         job = self.occupation
-        if job[0] == 'a' or job[0] == 'e' or job[0] == 'i' or job[0] == 'o' or job[0] == 'u':
+        if (
+            job[0] == "a"
+            or job[0] == "e"
+            or job[0] == "i"
+            or job[0] == "o"
+            or job[0] == "u"
+        ):
             print(f"{self.first_name} is an {self.occupation}\n")
         else:
             print(f"{self.first_name} is a {self.occupation}\n")
 
     def greet_user(self):
         """prints a greeting message to the user"""
-        print(f'Hi {self.first_name}, How you doing...\n')
+        print(f"Hi {self.first_name}, How you doing...\n")
 
     def increment_login_attempts(self):
         """increments the login_attempts value by 1"""

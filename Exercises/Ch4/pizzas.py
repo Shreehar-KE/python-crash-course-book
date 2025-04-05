@@ -13,7 +13,7 @@ pizza names in a list, and then use a for loop to print the name of each pizza.
   I really love pizza!
 """
 
-pizzas = ['New York Style', 'Neapolitan', 'Sicilian']
+pizzas = ["New York Style", "Neapolitan", "Sicilian"]
 
 for pizza in pizzas:
     print(pizza)
@@ -21,6 +21,6 @@ for pizza in pizzas:
 print("\n")
 
 for pizza in pizzas:
-    print(f'I like {pizza} pizza.')
+    print(f"I like {pizza} pizza.")
 
-print('\nI really love pizzas!')
+print("\nI really love pizzas!")

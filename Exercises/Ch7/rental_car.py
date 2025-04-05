@@ -4,6 +4,5 @@ would like. Print a message about that car, such as “Let me see if I can find 
 a Subaru.”
 """
 
-
-car = input('What kind of car do you want to rent?\n--> ')
-print(f'Let me see if I can find you a {car}.')
+car = input("What kind of car do you want to rent?\n--> ")
+print(f"Let me see if I can find you a {car}.")

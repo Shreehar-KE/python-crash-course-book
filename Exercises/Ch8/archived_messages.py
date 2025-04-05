@@ -16,20 +16,21 @@ def send_messages(messages_list, sent_messages):
     while messages_list:
         message = messages_list.pop(0)
         sent_messages.append(message)
-        print(f'Sending---> {message}')
+        print(f"Sending---> {message}")
 
-    print('\nFinished sending messages...')
+    print("\nFinished sending messages...")
 
 
-messages = ['This is a message',
-            'This is also a message',
-            'This is another message',
-            'This is the last message'
-            ]
+messages = [
+    "This is a message",
+    "This is also a message",
+    "This is another message",
+    "This is the last message",
+]
 sent_messages = []
 send_messages(messages[:], sent_messages)
 
-print('\nMessages in List:')
+print("\nMessages in List:")
 show_messages(messages)
-print('\nSent Messages:')
+print("\nSent Messages:")
 show_messages(sent_messages)

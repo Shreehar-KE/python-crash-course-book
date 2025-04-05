@@ -7,7 +7,6 @@ in using json.loads(). Print a summary showing exactly what your program
 remembers about the user.
 """
 
-
 from pathlib import Path
 import json
 
@@ -28,9 +27,9 @@ def get_new_username(path):
     age = int(input("What is your age? "))
     location = input("Where do you live? ")
     user_info = {}
-    user_info['name'] = username
-    user_info['age'] = age
-    user_info['location'] = location
+    user_info["name"] = username
+    user_info["age"] = age
+    user_info["location"] = location
     contents = json.dumps(user_info)
     path.write_text(contents)
     return user_info
@@ -38,13 +37,12 @@ def get_new_username(path):
 
 def greet_user():
     """Greet the user by name."""
-    path = Path('username.json')
+    path = Path("username.json")
     user = get_stored_username(path)
 
     if user:
         print(f"Welcome back, {user['name']}!")
-        print(
-            f"You are {user['age']} years old and you live in {user['location']}")
+        print(f"You are {user['age']} years old and you live in {user['location']}")
     else:
         user = get_new_username(path)
         print(f"We'll remember you when you come back, {user['name']}!")

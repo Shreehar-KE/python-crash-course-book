@@ -76,7 +76,7 @@ class ElectricCar(Car):
         self.battery = Battery()
 
 
-ev6 = ElectricCar('Kia', 'EV6', '2023')
+ev6 = ElectricCar("Kia", "EV6", "2023")
 ev6.battery.get_range()
 ev6.battery.upgrade_battery()
 ev6.battery.get_range()

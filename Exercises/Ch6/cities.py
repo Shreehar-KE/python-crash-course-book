@@ -35,6 +35,8 @@ cities = {
 
 for city, info in cities.items():
     print(f'{city.title()} is a city in {info["country"].title()}.')
-    print(f'The widely spoken language of {city.title()} is {info["language"].title()}.')
+    print(
+        f'The widely spoken language of {city.title()} is {info["language"].title()}.'
+    )
     print(f'It has a {info["population"]} population.')
     print(f'Interesting fact about {city.title()} is that {info["fact"]}.\n')

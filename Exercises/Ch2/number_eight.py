@@ -9,11 +9,10 @@ Your output should be four lines, with the number 8 appearing once on
 each line.
 """
 
-
 print(4 + 4)
 print(10 - 2)
 print(4 * 2)
 print(16 / 2)  # Decimal Division by default: (int) to override - Explicit conversion
 # Extra
-print(2 ** 3)
-print(32//4)  # Integer Division, rounds down the value instead of rounding to 0
+print(2**3)
+print(32 // 4)  # Integer Division, rounds down the value instead of rounding to 0

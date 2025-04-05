@@ -12,7 +12,7 @@ simple foods, and store them in a tuple.
   each of the items on the revised menu.
 """
 
-foods = ('Dosa', 'Idli', 'Upma', 'Poori', 'Chappathi')
+foods = ("Dosa", "Idli", "Upma", "Poori", "Chappathi")
 print("Choose from the following food items:")
 for food in foods:
     print(food)
@@ -20,7 +20,7 @@ for food in foods:
 # causes TypeError
 # foods[0] = 'Uthaapam'
 
-foods = ('Uthaapam', 'Mini-Idli', 'Upma', 'Poori', 'Chappathi')
+foods = ("Uthaapam", "Mini-Idli", "Upma", "Poori", "Chappathi")
 print("\nFood Items has been modified. \n")
 print("Choose from the following food items:")
 for food in foods:

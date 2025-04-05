@@ -19,18 +19,18 @@ class Restaurant:
 
     def describe_restaurant(self):
         """prints the restaurant's description"""
-        print(f'{self.restaurant_name}, A {self.cuisine_type} restaurant.')
+        print(f"{self.restaurant_name}, A {self.cuisine_type} restaurant.")
 
     def open_restaurant(self):
         """simulates opening of the restaurant"""
-        print(f'The {self.restaurant_name} restaurant is now open...!')
+        print(f"The {self.restaurant_name} restaurant is now open...!")
 
     def set_number_served(self, value):
         """modifies the number_served value with given value"""
         if value > 0:
             self.number_served = value
         else:
-            print('Error: No negative values are allowed as input..!')
+            print("Error: No negative values are allowed as input..!")
 
     def increment_number_served(self, value):
         """increments the number_served value by given value"""
@@ -46,12 +46,13 @@ class IceCreamStand(Restaurant):
 
     def display_flavors(self):
         """displays the availables flavors from the flavors list"""
-        print('The available flavors are: ')
+        print("The available flavors are: ")
         for flavor in self.flavors:
-            print(f'  - {flavor}')
+            print(f"  - {flavor}")
         print()
 
 
-my_ice_cream_stand = IceCreamStand("Florean Fortescue's", "Ice Cream Parlour", [
-                                   'Magical Strawberry', 'Peanut Butter'])
+my_ice_cream_stand = IceCreamStand(
+    "Florean Fortescue's", "Ice Cream Parlour", ["Magical Strawberry", "Peanut Butter"]
+)
 my_ice_cream_stand.display_flavors()

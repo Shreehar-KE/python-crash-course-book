@@ -1,6 +1,6 @@
 """
-4-2. Animals: Think of at least three different animals that have a common characteristic. 
-Store the names of these animals in a list, and then use a for loop to print out the 
+4-2. Animals: Think of at least three different animals that have a common characteristic.
+Store the names of these animals in a list, and then use a for loop to print out the
 name of each animal.
 
 • Modify your program to print a statement about each animal, such as A
@@ -11,8 +11,7 @@ name of each animal.
   make a great pet!
 """
 
-
-animals = ['dog', 'cat', 'hamster']
+animals = ["dog", "cat", "hamster"]
 
 for animal in animals:
     print(animal)
@@ -20,5 +19,5 @@ for animal in animals:
 print("\n")
 
 for animal in animals:
-    print(f'A {animal} would make a great pet.')
-print('\nAny of these animals would make a great pet!')
+    print(f"A {animal} would make a great pet.")
+print("\nAny of these animals would make a great pet!")

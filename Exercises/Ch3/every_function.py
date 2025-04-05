@@ -5,20 +5,20 @@ else you'd like. Write a program that creates a list containing these items and
 then uses each function introduced in this chapter at least once.
 """
 
-locations = ['svalbard', 'paris', 'maldives', 'venice', 'ha long bay']
+locations = ["svalbard", "paris", "maldives", "venice", "ha long bay"]
 print("Original List:")
 print(locations)
 print("\nAppending Santorini")
-locations.append('santorini')
+locations.append("santorini")
 print(locations)
 print("\nInserting Switzerland at index 1")
-locations.insert(1, 'switzerland')
+locations.insert(1, "switzerland")
 print(locations)
 print("\nDeleting the location at index 5")
 del locations[5]
 print(locations)
 print("\nInserting Ha Long Bay at index 5")
-locations.insert(5, 'ha long bay')
+locations.insert(5, "ha long bay")
 print(locations)
 print("\nTemporary sorting using sorted() function")
 print(sorted(locations))
@@ -39,5 +39,5 @@ print("\nPopping the location at index 2")
 print(locations.pop(2))
 print(locations)
 print("\nRemoving Paris")
-locations.remove('paris')
+locations.remove("paris")
 print(locations)

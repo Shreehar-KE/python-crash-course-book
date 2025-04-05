@@ -5,9 +5,8 @@ make an Admin instance, and call show_privileges() to show that everything is
 working correctly.
 """
 
-
 import admin
 
-new_admin = admin.Admin('Admin', 'User', 0, 'Administrator')
+new_admin = admin.Admin("Admin", "User", 0, "Administrator")
 
 new_admin.show_privileges()

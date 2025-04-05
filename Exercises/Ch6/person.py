@@ -6,13 +6,13 @@ of information stored in your dictionary.
 """
 
 person = {
-    'first_name': 'Shreehar',
-    'last_name': 'Elancheran',
-    'age': '24',
-    'city': 'Trichy'
+    "first_name": "Shreehar",
+    "last_name": "Elancheran",
+    "age": "24",
+    "city": "Trichy",
 }
 
-print(person['first_name'])
-print(person['last_name'])
-print(person['age'])
-print(person['city'])
+print(person["first_name"])
+print(person["last_name"])
+print(person["age"])
+print(person["city"])

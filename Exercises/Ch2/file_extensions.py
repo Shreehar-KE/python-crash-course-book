@@ -5,5 +5,5 @@ filename. Then use the removesuffix() method to display the filename without
 the file extension, like some file browsers do.
 """
 
-filename = 'python_notes.txt'
-print(filename.removesuffix('.txt'))
+filename = "python_notes.txt"
+print(filename.removesuffix(".txt"))

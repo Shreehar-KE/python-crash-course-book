@@ -12,12 +12,12 @@ name_2 = " \nPhoebe Buffay "
 
 # Note: dollar signs($$) are used to show the difference after stripping
 
-print(name_1+"$$")
-print(name_1.rstrip()+"$$")
-print(name_1.lstrip()+"$$")
-print(name_1.strip()+"$$")
+print(name_1 + "$$")
+print(name_1.rstrip() + "$$")
+print(name_1.lstrip() + "$$")
+print(name_1.strip() + "$$")
 print()
-print(name_2+"$$")
-print(name_2.rstrip()+"$$")
-print(name_2.lstrip()+"$$")
-print(name_2.strip()+"$$")
+print(name_2 + "$$")
+print(name_2.rstrip() + "$$")
+print(name_2.lstrip() + "$$")
+print(name_2.strip() + "$$")

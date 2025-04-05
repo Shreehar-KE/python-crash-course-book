@@ -12,7 +12,7 @@ to visit.
 
 • Show that your list is still in its original order by printing it.
 
-• Use sorted() to print your list in reverse-alphabetical order without changing 
+• Use sorted() to print your list in reverse-alphabetical order without changing
   the order of the original list.
 
 • Show that your list is still in its original order by printing it again.
@@ -30,7 +30,7 @@ to visit.
   Print the list to show that its order has changed.
 """
 
-locations = ['paris', 'svalbard', 'maldives', 'venice', 'ha long bay']
+locations = ["paris", "svalbard", "maldives", "venice", "ha long bay"]
 print(locations)
 print(sorted(locations))
 print(locations)

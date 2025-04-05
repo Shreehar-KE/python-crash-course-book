@@ -10,10 +10,11 @@ def show_messages(messages_list):
         print(message)
 
 
-messages = ['This is a message',
-            'This is also a message',
-            'This is another message',
-            'This is the last message'
-            ]
+messages = [
+    "This is a message",
+    "This is also a message",
+    "This is another message",
+    "This is the last message",
+]
 
 show_messages(messages)

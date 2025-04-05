@@ -7,7 +7,7 @@ restaurant has served, and then change this value and print it again.
      Add a method called set_number_served() that lets you set the number of
 customers that have been served. Call this method with a new number and print
 the value again.
-     
+
      Add a method called increment_number_served() that lets you increment
 the number of customers who've been served. Call this method with any number
 you like that could represent how many customers were served in, say, a day of
@@ -26,36 +26,36 @@ class Restaurant:
 
     def describe_restaurant(self):
         """prints the restaurant's description"""
-        print(f'{self.restaurant_name}, A {self.cuisine_type} restaurant.')
+        print(f"{self.restaurant_name}, A {self.cuisine_type} restaurant.")
 
     def open_restaurant(self):
         """simulates opening of the restaurant"""
-        print(f'The {self.restaurant_name} restaurant is now open...!')
+        print(f"The {self.restaurant_name} restaurant is now open...!")
 
     def set_number_served(self, value):
         """modifies the number_served value with given value"""
         if value > 0:
             self.number_served = value
         else:
-            print('Error: No negative values are allowed as input..!')
+            print("Error: No negative values are allowed as input..!")
 
     def increment_number_served(self, value):
         """increments the number_served value by given value"""
         self.number_served += value
 
 
-my_restaurant = Restaurant('Los Pollos Hermanos', 'Fast-Food')
-print(f'\nNumber of customers served: {my_restaurant.number_served}')
+my_restaurant = Restaurant("Los Pollos Hermanos", "Fast-Food")
+print(f"\nNumber of customers served: {my_restaurant.number_served}")
 
-print('\nServing to 2 Customers.')
+print("\nServing to 2 Customers.")
 my_restaurant.number_served = 2
-print(f'\nNumber of customers served: {my_restaurant.number_served}')
+print(f"\nNumber of customers served: {my_restaurant.number_served}")
 
 
-print('\nServing to 2 Customers.')
+print("\nServing to 2 Customers.")
 my_restaurant.set_number_served(4)
-print(f'\nNumber of customers served: {my_restaurant.number_served}')
+print(f"\nNumber of customers served: {my_restaurant.number_served}")
 
-print('\nServing to 3 Customers.')
+print("\nServing to 3 Customers.")
 my_restaurant.increment_number_served(3)
-print(f'\nNumber of customers served: {my_restaurant.number_served}')
+print(f"\nNumber of customers served: {my_restaurant.number_served}")

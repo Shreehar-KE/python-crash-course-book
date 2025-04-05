@@ -1,10 +1,9 @@
 """
 9-15. Lottery Analysis: You can use a loop to see how hard it might be to win
 the kind of lottery you just modeled. Make a list or tuple called my_ticket. Write
-a loop that keeps pulling numbers until your ticket wins. Print a message reporting 
+a loop that keeps pulling numbers until your ticket wins. Print a message reporting
 how many times the loop had to run to give you a winning ticket.
 """
-
 
 from random import choice
 
@@ -30,10 +29,10 @@ def check_ticket(some_ticket, winning_ticket):
     return True
 
 
-lottery = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E']
-print('\nDrawing the Winning Ticket...\n')
+lottery = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E"]
+print("\nDrawing the Winning Ticket...\n")
 winning_ticket = generate_ticket(lottery)
-print(f'Winning Ticket is {winning_ticket}')
+print(f"Winning Ticket is {winning_ticket}")
 times = 0
 limit = 1_000_000
 flag = False
@@ -42,12 +41,12 @@ while not flag:
     new_ticket = generate_ticket(lottery)
     times += 1
     if times % 1000 == 0:
-        print(f'crossed {times} tries.')
+        print(f"crossed {times} tries.")
     flag = check_ticket(new_ticket, winning_ticket)
     if times >= limit:
         break
 
 if flag:
-    print(f'\nWon the prize in {times} tries with {winning_ticket} ticket.')
+    print(f"\nWon the prize in {times} tries with {winning_ticket} ticket.")
 else:
-    print(f'\nLost after {times} tries, winning ticket is {winning_ticket}.')
+    print(f"\nLost after {times} tries, winning ticket is {winning_ticket}.")

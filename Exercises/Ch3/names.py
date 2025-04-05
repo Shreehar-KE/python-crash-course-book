@@ -3,7 +3,7 @@
 each person's name by accessing each element in the list, one at a time.
 """
 
-friends = ['Joey', 'Chandler', 'Phoebe']
+friends = ["Joey", "Chandler", "Phoebe"]
 print(friends[0])
 print(friends[1])
 print(friends[2])

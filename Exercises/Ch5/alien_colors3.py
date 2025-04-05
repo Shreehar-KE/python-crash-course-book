@@ -11,6 +11,7 @@ else chain.
 • Write three versions of this program, making sure each message is printed
   for the appropriate color alien.
 """
+
 print("\nVersion 1--------------------------\n")
 
 alien_color1 = "green"

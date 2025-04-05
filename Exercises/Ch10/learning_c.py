@@ -7,7 +7,7 @@ string with a different word. Here's a quick example showing how to replace
 >>> message.replace('dog', 'cat')
 'I really like cats.'
 
-      Read in each line from the file you just created, learning_python.txt, 
+      Read in each line from the file you just created, learning_python.txt,
 and replace the word Python with the name of another language, such as C. Print
 each modified line to the screen.
 """
@@ -25,7 +25,8 @@ to make them more concise.
 
 
 from pathlib import Path
-path = Path('learning_python.txt')
+
+path = Path("learning_python.txt")
 contents = path.read_text().rstrip()
 
 # To replace as a whole
@@ -35,4 +36,4 @@ contents = path.read_text().rstrip()
 # lines = contents.splitlines()
 # for line in lines:
 for line in contents.splitlines():  # 10-3.simpler_code
-    print(line.replace('python', 'c'))
+    print(line.replace("python", "c"))

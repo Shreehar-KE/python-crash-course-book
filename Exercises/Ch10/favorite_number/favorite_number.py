@@ -5,16 +5,15 @@ gram that reads in this value and prints the message “I know your favorite
 number! It's _____.”
 """
 
-
 import json
 from pathlib import Path
 
-path = Path('favorite_number.json')
+path = Path("favorite_number.json")
 while True:
     try:
-        number = int(input('Enter your favorite number: '))
+        number = int(input("Enter your favorite number: "))
     except ValueError:
-        print('\nEnter numerical values only...!\n')
+        print("\nEnter numerical values only...!\n")
     else:
         contents = json.dumps(number)
         path.write_text(contents)

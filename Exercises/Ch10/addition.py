@@ -8,13 +8,12 @@ program by entering two numbers and then by entering some text instead of a
 number.
 """
 
-
-num1 = input('Enter 1st number: ')
-num2 = input('Enter 2nd number: ')
+num1 = input("Enter 1st number: ")
+num2 = input("Enter 2nd number: ")
 
 try:
     sum = int(num1) + int(num2)
 except ValueError:
-    print('Error - Enter numerical values only...!')
+    print("Error - Enter numerical values only...!")
 else:
     print(sum)

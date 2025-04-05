@@ -7,10 +7,11 @@ not empty.
 • Remove all of the usernames from your list, and make sure the correct mes-
   sage is printed.
 """
-print("\nVersion 1--------------------------\n")
-usernames = ['Indiana Jones', 'John Wick','Bruce Almighty', 'admin', 'Jack Sparrow']
 
-print("Users - ",usernames)
+print("\nVersion 1--------------------------\n")
+usernames = ["Indiana Jones", "John Wick", "Bruce Almighty", "admin", "Jack Sparrow"]
+
+print("Users - ", usernames)
 
 if usernames:
     for username in usernames:

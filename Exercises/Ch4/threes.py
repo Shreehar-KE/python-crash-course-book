@@ -3,7 +3,6 @@
 print the numbers in your list.
 """
 
-
 threes = [num for num in range(3, 31, 3)]
 
 for number in threes:

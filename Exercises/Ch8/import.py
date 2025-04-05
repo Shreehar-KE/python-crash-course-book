@@ -10,7 +10,6 @@ import module_name as mn
 from module_name import *
 """
 
-
 import simple_module
 from simple_module import another_function
 from simple_module import simple_function as sf

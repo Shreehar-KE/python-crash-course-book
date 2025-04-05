@@ -5,4 +5,4 @@ that message.
 """
 
 fav_num = 4
-print(f'My Favorite Number is {fav_num}.')
+print(f"My Favorite Number is {fav_num}.")

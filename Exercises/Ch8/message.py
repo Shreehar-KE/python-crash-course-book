@@ -7,7 +7,7 @@ function, and make sure the message displays correctly.
 
 def display_message():
     """prints a message"""
-    print('I learned the difference b/w arguments & parameters')
+    print("I learned the difference b/w arguments & parameters")
 
 
 display_message()

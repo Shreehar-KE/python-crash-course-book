@@ -4,6 +4,5 @@ use a for loop to print the numbers. (If the output is taking too long, stop it 
 pressing CTRL-C or by closing the output window.)
 """
 
-
 for number in range(1, 1000001):
     print(number)

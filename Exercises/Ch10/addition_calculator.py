@@ -6,7 +6,7 @@ enter text instead of a number.
 
 while True:
     print("\nEnter 'q' to quit anytime...!")
-    
+
     num1 = input("Enter 1st number: ")
     if num1 == "q":
         break

@@ -13,7 +13,7 @@ print("\nVersion 1--------------------------\n")
 
 alien_color1 = "green"
 
-print("Alien Color - ",alien_color1)
+print("Alien Color - ", alien_color1)
 
 if alien_color1 == "green":
     print("You have earned 5 points.")

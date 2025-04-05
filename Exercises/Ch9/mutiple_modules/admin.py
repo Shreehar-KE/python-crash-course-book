@@ -10,7 +10,8 @@ class Admin(User):
         """initialized the attributes of Admin class"""
         super().__init__(first_name, last_name, age, occupation)
         self.privileges = Privileges(
-            ['can add post', 'can delete post', 'can ban user', 'can delete user'])
+            ["can add post", "can delete post", "can ban user", "can delete user"]
+        )
 
     def show_privileges(self):
         """displys the list of privileges that the Admin have"""
@@ -26,4 +27,4 @@ class Privileges:
 
     def show_privileges(self):
         for privilege in self.privileges:
-            print(f'  - {privilege}')
+            print(f"  - {privilege}")
